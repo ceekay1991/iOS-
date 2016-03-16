@@ -16,3 +16,6 @@
 ## 3、Framework 真机模拟器合并
         lipo -create Release-iphoneos/UnrarKit.framework/UnrarKit Release-iphonesimulator/UnrarKit.framework/UnrarKit -o Release-iphoneos/UnrarKit.framework/UnrarKit
 
+## 4、进入Provisioning Profile目录
+        cd ~/Library/MobileDevice/Provisioning\ Profiles/
+

@@ -18,4 +18,7 @@
 
 ## 4、进入Provisioning Profile目录
         cd ~/Library/MobileDevice/Provisioning\ Profiles/
+## 5、svn 更新忽略本地修改引起的冲突
+      svn up --accept tc
+* [svn 命令详解](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.update.html)
 
